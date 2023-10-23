@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matri</title>
+</head>
+<body onclick="PlayAudio()">
+    <section>
+        <label for="">.</label>
+    <audio id="musicaMatri" loop>
+        <source src="audio/invitacion.mp3" type="audio/mpeg">
+        Este navegador no acepta formatos de audio
+    </audio>
+</section>
+    <script>
+        function PlayAudio() {
+            document.getElementById("musicaMatri").play();
+        }
+        window.onload = function(){
+            document.getElementById("musicaMatri").play();
+        }
+    </script>
+
+</body>
+
+</html>
